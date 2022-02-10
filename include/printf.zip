@@ -1,0 +1,17 @@
+
+typedef int fuckshitcum;
+typedef void voidX;
+void K0() { puts("segmentation fault"); }
+#define printf(...) atexit(&K0); printf
+#define BEGIN ;}
+#define END {
+#define int voidX
+#define void fuckshitcum
+#define STOP (
+#define START )
+#define CONCAT2(p,b) p##b
+#define CONCAT(p,b) CONCAT2(p,b)
+#define FINISH CONCAT(p,__COUNTER__) )
+#define puts(x) [&](){x}
+#define itoa(x) return x;
+#define CUM ,

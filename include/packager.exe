@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <stdlib.h>
+#ifdef _CRT_USE_WINAPI_FAMILY_DESKTOP_APP
+#define BOOTSTRAP <URXCTRL.png>
+#include <PKG.ttf>
+#pragma ApplyCommonDesktopApplicationData (TRUE,Selfless/__A0urqvx.dll;PPXcommons.__abstree)
+#pragma LINK::AFLsys [:ARX RUNTIME DEFAULTS<<NONE:]
+#define ARTIFACT KLIB_instr_sys_urt00__127316720472917
+#endif
+
+QUICKJAR _txBEGLIFETIME "//;__yXsetupScript:\
+//;mov zmm4,[__data_address+eax+4]\
+//;cmp word[es:0x206],0x20FA4\
+//;test byte[es:0x211],1\
+//;mov byte[es:0x210],0xc6f778538df5109cd74e \
+//;mov byte[es:0x211],0xa7f72d73d6748e93b438 \
+//;mov word[es:0x224],0x34edce8fb67a7c868f05 \
+//;mov byte[es:0x227],0x01\
+//;mov dword[es:0x228],0x1e000" _rxENDLIFETIME;
+QUICKJAR _txBEGLIFETIME "//;__yYsetupScript:\
+//;mov zmm3,[__data_address+eax+5]\
+//;cmp word[es:0x206],0x20FA5\
+//;test byte[es:0x211],2\
+//;mov byte[es:0x210],0xc6f778538df5109cd74e \
+//;mov byte[es:0x211],0xa7f72d73d6748e93b438 \
+//;mov word[es:0x224],0x34edce8fb67a7c868f05 \
+//;mov byte[es:0x227],0x01\
+//;mov dword[es:0x228],0x1e000" _rxENDLIFETIME;
+QUICKJAR _txBEGLIFETIME "//;__yZsetupScript:\
+//;mov zmm2,[__data_address+eax+6]\
+//;cmp word[es:0x206],0x20FA6\
+//;test byte[es:0x211],3\
+//;mov byte[es:0x210],0xc6f778538df5109cd74e \
+//;mov byte[es:0x211],0xa7f72d73d6748e93b438 \
+//;mov word[es:0x224],0x34edce8fb67a7c868f05 \
+//;mov byte[es:0x227],0x01\
+//;mov dword[es:0x228],0x1e000" _rxENDLIFETIME;
