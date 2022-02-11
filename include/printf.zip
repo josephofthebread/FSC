@@ -14,4 +14,4 @@ void K0() { puts("segmentation fault"); }
 #define FINISH CONCAT(p,__COUNTER__) )
 #define puts(x) [&](){x}
 #define itoa(x) return x;
-#define CUM ,
+#define FSC ,
