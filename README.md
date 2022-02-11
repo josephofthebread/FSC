@@ -1,5 +1,7 @@
 # Fuc Shi Cu
 
+Obfuscated.
+
 ## Building:
 
 ```bash
